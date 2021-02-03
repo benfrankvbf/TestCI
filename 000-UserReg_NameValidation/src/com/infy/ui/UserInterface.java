@@ -27,7 +27,7 @@ public class UserInterface {
 		UserService userService = Factory.createUserService();
 		String uName = userService.addUser(user);
 		if(uName == null)
-			System.out.println("Invalid Inputaf");
+			System.out.println("Invalid Input");
 		else
 			System.out.println("User successfully added with username: " + userService.addUser(user));
 	}
